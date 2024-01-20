@@ -5,7 +5,7 @@ import random
 
 entrada_count = 0
 salida_count = 0
-lock = threading.Lock()  # la exclusión mutua para las variables compartidas
+lock = threading.Lock()  # la exclusión mutua para la variable lock
 
 # Función para la entrada de un visitante/microsegundos
 def entrada():
