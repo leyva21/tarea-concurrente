@@ -13,7 +13,7 @@ def entrada():
     with lock:
         entrada_count += 1
         print(f"Entrada - Visitante ingresado por Puerta 1. Total de entrada: {entrada_count}")
-    time.sleep(random.uniform(0, 0.1))
+    time.sleep(random.uniform(0, 0.1)) #microsegundos
 
 # Función para simular la salida de un visitante/microsegundos
 def salida():
@@ -21,7 +21,7 @@ def salida():
     with lock:
         salida_count += 1
         print(f"Salida - Visitante salido por Puerta 2. Total de salida: {salida_count}")
-    time.sleep(random.uniform(0, 0.1))
+    time.sleep(random.uniform(0, 0.1)) #microsegundos
 
 # Función para contar el tiempo en segundo plano
 def contar_tiempo():
